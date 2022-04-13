@@ -1,0 +1,49 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1645792899584' stop='1645792941969'>
+    <name>My Login application</name>
+    <title>My Login application</title>
+    <test-cases>
+        <test-case start='1645792899584' status='broken' stop='1645792941968'>
+            <name>should login with valid credentials</name>
+            <title>should login with valid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>element not interactable
+                  (Session info: chrome=98.0.4758.102)</message>
+                <stack-trace>Backtrace:
+                	Ordinal0 [0x00B6FDC3+2555331]
+                	Ordinal0 [0x00B077F1+2127857]
+                	Ordinal0 [0x00A02CD0+1060048]
+                	Ordinal0 [0x00A26CF4+1207540]
+                	Ordinal0 [0x00A47B0C+1342220]
+                	Ordinal0 [0x00A24984+1198468]
+                	Ordinal0 [0x00A47C14+1342484]
+                	Ordinal0 [0x00A575FA+1406458]
+                	Ordinal0 [0x00A47976+1341814]
+                	Ordinal0 [0x00A236B6+1193654]
+                	Ordinal0 [0x00A24546+1197382]
+                	GetHandleVerifier [0x00D09622+1619522]
+                	GetHandleVerifier [0x00DB882C+2336844]
+                	GetHandleVerifier [0x00C023E1+541697]
+                	GetHandleVerifier [0x00C01443+537699]
+                	Ordinal0 [0x00B0D18E+2150798]
+                	Ordinal0 [0x00B11518+2168088]
+                	Ordinal0 [0x00B11660+2168416]
+                	Ordinal0 [0x00B1B330+2208560]
+                	(No symbol) [0x773CFA29]
+                	RtlGetAppContainerNamedObjectPath [0x77C27A9E+286]
+                	RtlGetAppContainerNamedObjectPath [0x77C27A6E+238]
+                </stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

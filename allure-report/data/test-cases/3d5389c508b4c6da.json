@@ -1,0 +1,62 @@
+{
+  "uid" : "3d5389c508b4c6da",
+  "name" : "should login with valid credentials",
+  "fullName" : "My Login application.should login with valid credentials",
+  "historyId" : "75877a57302f7ebe5773ca2f13bf111f",
+  "time" : {
+    "start" : 1644211278985,
+    "stop" : 1644211315957,
+    "duration" : 36972
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element not interactable\n                  (Session info: chrome=97.0.4692.99)",
+  "statusTrace" : "Backtrace:\n                \tOrdinal0 [0x00F1FDC3+2555331]\n                \tOrdinal0 [0x00EB77F1+2127857]\n                \tOrdinal0 [0x00DB2CD0+1060048]\n                \tOrdinal0 [0x00DD6CF4+1207540]\n                \tOrdinal0 [0x00DF7B0C+1342220]\n                \tOrdinal0 [0x00DD4984+1198468]\n                \tOrdinal0 [0x00DF7C14+1342484]\n                \tOrdinal0 [0x00E075FA+1406458]\n                \tOrdinal0 [0x00DF7976+1341814]\n                \tOrdinal0 [0x00DD36B6+1193654]\n                \tOrdinal0 [0x00DD4546+1197382]\n                \tGetHandleVerifier [0x010B9622+1619522]\n                \tGetHandleVerifier [0x0116882C+2336844]\n                \tGetHandleVerifier [0x00FB23E1+541697]\n                \tGetHandleVerifier [0x00FB1443+537699]\n                \tOrdinal0 [0x00EBD18E+2150798]\n                \tOrdinal0 [0x00EC1518+2168088]\n                \tOrdinal0 [0x00EC1660+2168416]\n                \tOrdinal0 [0x00ECB330+2208560]\n                \t(No symbol) [0x76F4FA29]\n                \tRtlGetAppContainerNamedObjectPath [0x77927A9E+286]\n                \tRtlGetAppContainerNamedObjectPath [0x77927A6E+238]\n                ",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "My Login application"
+  }, {
+    "name" : "testClass",
+    "value" : "My Login application"
+  }, {
+    "name" : "testMethod",
+    "value" : "should login with valid credentials"
+  }, {
+    "name" : "package",
+    "value" : "My Login application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-97.0.4692.99"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3d5389c508b4c6da.json",
+  "parameterValues" : [ "chrome-97.0.4692.99" ]
+}

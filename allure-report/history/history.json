@@ -1,0 +1,22 @@
+{
+  "75877a57302f7ebe5773ca2f13bf111f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "55439a878a047abb",
+      "status" : "broken",
+      "statusDetails" : "element not interactable\n                  (Session info: chrome=97.0.4692.99)",
+      "time" : {
+        "start" : 1644211978922,
+        "stop" : 1644212015007,
+        "duration" : 36085
+      }
+    } ]
+  }
+}
